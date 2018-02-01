@@ -1,0 +1,32 @@
+<html ng-app="myApp">
+    
+    <head>
+        <title>Filmweb</title>
+            <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+<body>
+	<nav class="navbar">
+        <div class="logo">
+            <a href="#/">Filmweb</a>
+        </div>
+          <div class="add-movie">
+            <a href="#/movies/add">Dodaj film</a>
+          </div>
+    </nav>
+
+    <div class="container">
+    			<div ng-view></div>
+     </div>
+
+    </div>
+    
+	<script src="/bower_components/jquery/dist/jquery.js"></script>
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-route/angular-route.js"></script>
+	<script src="/app.js"></script>
+	<script src="/controllers/movies.js"></script>
+    
+    
+</body>
+</html>

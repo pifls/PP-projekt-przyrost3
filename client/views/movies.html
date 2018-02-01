@@ -1,0 +1,23 @@
+<div class="all-movies" ng-init="getMovies()">
+    
+    
+    <div class="row">
+    	<div ng-repeat="movie in movies">
+    		<div class="one-movie">
+                    <div class="delete-button">
+                        <a href="#" ng-click="removeMovie(movie._id)">X</a>
+                    </div>
+                <h2>{{movie.title}}</h2>
+                <h4>{{movie.description}}</h4>
+                <ul class="movie-list">
+                    <li>Reżyser: {{movie.director}}</li>
+                    <li>Scenarzysta: {{movie.screenwriter}}</li>
+                    <li>Gatunek: {{movie.genre}}</li>
+                    <li>Rok: {{movie.year}}</li>
+                    <li>Ocena: {{movie.rate}} /10</li>
+                </ul>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</div>

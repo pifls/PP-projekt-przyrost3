@@ -1,0 +1,16 @@
+{
+  "name": "przyrost3",
+  "version": "1.0.0",
+  "description": "Dodawaj nowe filmy do bazy i je przegladaj",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "author": "Marek Pikosz",
+  "license": "ISC"
+}
